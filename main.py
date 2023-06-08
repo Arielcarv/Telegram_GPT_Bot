@@ -6,7 +6,7 @@ from telegram import Update
 from datetime import datetime
 
 
-API_TOKEN=os.getenv('API_TOKEN')
+BOT_API_TOKEN=os.getenv('BOT_API_TOKEN')
 OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 
 
@@ -71,7 +71,7 @@ def chatGPT_message(question):
 
 
 if __name__=='__main__':
-    application = ApplicationBuilder().token(API_TOKEN).build()
+    application = ApplicationBuilder().token(BOT_API_TOKEN).build()
 
     application.add_handler(CommandHandler("echo", echo))
     application.add_handler(CommandHandler("start", start))
