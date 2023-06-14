@@ -9,10 +9,11 @@ A telegram bot connected with chat GPT. It responds questions and stuff. :D
 4. Choose a username for the bot. (Yeah, it has to be a unique and end with "bot")
 5. After that the BotFather gives you the `BOT_API_TOKEN` to use in the code.
 
-
 # Deploy
 
 You can deploy your bot server on [Python Anywhere](https://www.pythonanywhere.com/user/Arielcarv/) as I did. It's free!
+
+![telegram_gpt_gif](telegram_gpt.gif)
 
 # References
 
